@@ -16,3 +16,11 @@ type User struct {
 	Status bool
 	Age    int
 }
+
+
+type order struct {
+	Id string
+	Amount float32 
+	status string 
+	
+}
